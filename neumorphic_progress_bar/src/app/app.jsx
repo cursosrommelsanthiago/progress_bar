@@ -21,13 +21,14 @@ const App = () => {
             return newValue;
        
           })
-        }, 15)
+        }, 95)
     },[]);
 
     return(
         <>
             <Styled.Container>
                 <GlobalStyle />
+                <h1>Neumorphic Progress Bar</h1>
                 <Styled.OutsideProgressBar>
                     <Neumorphism progress={progress}/>
                     <Styled.InsideProgressBar>
